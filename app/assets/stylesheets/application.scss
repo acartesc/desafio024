@@ -1,4 +1,8 @@
-@import 'bootstrap'; /*nomenclatura sass para llamar a bootstrap (como modulos de ruby con include)
+@import 'bootstrap'; /*nomenclatura sass para llamar a bootstrap (como modulos de ruby con include)*/
+@import 'pages';
+@import 'products';
+@import 'scaffolds';
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -14,3 +18,6 @@
  *= require_tree .
  *= require_self
  */
+body{
+  margin-top: 80px;
+}
